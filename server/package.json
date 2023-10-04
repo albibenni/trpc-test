@@ -1,12 +1,12 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "module": "index.ts",
+  "module": "src/index.ts",
   "description": "server side for tRPC test project",
   "type": "module",
   "scripts": {
     "start": "bun run src/index.ts",
-    "start:watch": "bun --watch run index.ts",
+    "start:watch": "bun --watch run src/index.ts",
     "start:watch:loMemory": "bun --watch --smol run server.ts"
   },
   "keywords": [],
