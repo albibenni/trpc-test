@@ -1,12 +1,12 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "module": "server.ts",
+  "module": "index.ts",
   "description": "server side for tRPC test project",
   "type": "module",
   "scripts": {
-    "start": "bun run server.ts",
-    "start:watch": "bun --watch run server.ts",
+    "start": "bun run src/index.ts",
+    "start:watch": "bun --watch run index.ts",
     "start:watch:loMemory": "bun --watch --smol run server.ts"
   },
   "keywords": [],
@@ -24,6 +24,6 @@
     "bun-types": "latest"
   },
   "peerDependencies": {
-    "typescript": "^5.2.2"
+    "typescript": "^5.0.0"
   }
 }
